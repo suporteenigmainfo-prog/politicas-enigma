@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade - Sistema de Backup Enigma</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #222; max-width: 760px; margin: 40px auto; padding: 0 20px; }
+  h1 { font-size: 1.6em; }
+  h2 { font-size: 1.2em; margin-top: 1.8em; }
+  footer { margin-top: 3em; font-size: 0.9em; color: #555; }
+</style>
+</head>
+<body>
+
+<h1>Política de Privacidade - Sistema de Backup Enigma</h1>
+<p><strong>Última atualização:</strong> 06 de novembro de 2026</p>
+
+<p>Esta política explica como o <strong>Sistema de Backup Enigma</strong> ("aplicativo") trata os dados. O aplicativo é desenvolvido pela Enigma Automação e é de uso interno, para envio automatizado de arquivos de backup para o Google Drive.</p>
+
+<h2>1. Quais dados são acessados</h2>
+<ul>
+  <li><strong>Arquivos de backup (.zip):</strong> o aplicativo lê os arquivos .zip da pasta local configurada no computador onde está instalado.</li>
+  <li><strong>Dados da conta Google:</strong> o aplicativo usa autorização OAuth 2.0 com o escopo <code>drive.file</code>. Ele só acessa os arquivos e pastas que ele mesmo criou no Google Drive. Não lê, altera nem apaga outros arquivos da conta.</li>
+  <li><strong>Dados de configuração:</strong> nome do cliente, CNPJ e caminho da pasta local, gravados no computador do usuário.</li>
+</ul>
+
+<h2>2. Como os dados são usados</h2>
+<p>Os dados são usados somente para:</p>
+<ul>
+  <li>enviar os arquivos de backup para uma pasta, criada automaticamente, nomeada com o nome do cliente e o CNPJ;</li>
+  <li>manter no Google Drive apenas os 4 backups mais recentes de cada cliente;</li>
+  <li>registrar erros e eventos de envio em um arquivo de log local.</li>
+</ul>
+
+<h2>3. Com quem os dados são compartilhados</h2>
+<p>Os arquivos de backup são enviados apenas para a conta Google Drive do responsável pelo sistema. Não há venda, cessão ou compartilhamento de dados com terceiros. O aplicativo não usa ferramentas de análise, publicidade ou rastreamento.</p>
+
+<h2>4. Armazenamento e segurança</h2>
+<ul>
+  <li>O token de acesso fica armazenado localmente no computador do usuário, em uma pasta de configuração do aplicativo.</li>
+  <li>Os arquivos de backup permanecem no Google Drive pelo tempo definido na política de retenção (4 backups por cliente). Os arquivos excedentes são movidos para a lixeira do Drive, onde ficam disponíveis por 30 dias antes da exclusão definitiva.</li>
+</ul>
+
+<h2>5. Uso dos dados obtidos da API do Google</h2>
+<p>O uso e a transferência de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário das APIs do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+<h2>6. Seus direitos</h2>
+<p>Você pode, a qualquer momento, parar o aplicativo, desinstalá-lo, revogar o acesso ao aplicativo nas configurações da sua conta Google em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> e solicitar a exclusão dos dados enviados, entrando em contato pelo e-mail abaixo.</p>
+
+<h2>7. Alterações desta política</h2>
+<p>Esta política pode ser atualizada. A data no topo desta página indica a última revisão.</p>
+
+<h2>8. Contato</h2>
+<p>Dúvidas sobre esta política: <a href="mailto:suporteenigmainfo@gmail.com">suporteenigmainfo@gmail.com</a></p>
+
+<footer>Enigma Automação · <a href="https://enigmaautomacao.com.br">enigmaautomacao.com.br</a></footer>
+
+</body>
+</html>
